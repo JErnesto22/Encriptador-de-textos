@@ -8,6 +8,6 @@
 
 <h2>Lista de comandos</h2>
 <ul>
-  <li>encript - "Encriptar"</li>
-  <li>desencript - "Desencriptar"</li>
+  <li>enc - "Encriptar"</li>
+  <li>desenc - "Desencriptar"</li>
 </ul>
