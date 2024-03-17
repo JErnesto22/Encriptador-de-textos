@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <!--Style-->
+  <link rel="stylesheet" href="Css/index_style.css">
+  
+  <title>Encriptador de texto</title>
+</head>
+
+<body>
+ 
+
+  <main>
+    <div class="top_window">
+      <p class="root_title">C:\User\Desktop\Encripter</p>
+    </div>
+    <div class="console">
+
+      <div id="line_one">
+        <label for="command" id="command_root" class="root"></label>
+        <input type="text" id="command_input" name="command" placeholder="type a command" class="input_root root" tabindex="1">
+      </div>
+
+      <div id="line_two">
+        <label for="input_text" id="text_root" class="root"></label>
+        <input type="text" id="text_input" name="input_text" placeholder="Write a text" class="input_root root" tabindex="2">
+      </div>
+
+      <div id="line_third">
+        <label for="input_selection" id="label_selection" class="root"></label>
+        <input type="text" id="input_selection" name="input_selection" placeholder="Y for yes or n for no"
+          class="input_root root" tabindex="3">
+      </div>
+
+      <p id="text_output" class="root"></p>
+
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
